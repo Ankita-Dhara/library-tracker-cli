@@ -44,13 +44,6 @@ python main.py
 On the first run `data.json` is created next to `main.py`. Library events
 are written to `library.log` in the same folder.
 
-## Tests and style checks
-
-```bash
-python -m pytest --cov=src
-flake8 .
-```
-
 ## Project layout
 
 ```
@@ -59,7 +52,6 @@ src/models.py      Book, Status and the custom exceptions
 src/library.py     Library: add, find, search, filter, statistics
 src/storage.py     JSON load/save and CSV export
 src/cli.py         menu and user input handling
-tests/             pytest test suite
 ```
 
 ## Notes
